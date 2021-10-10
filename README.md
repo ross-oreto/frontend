@@ -1,10 +1,13 @@
-# Webpack app
+# Demonstrates an application which uses plain es6 modules locally and uses webpack to bundle for prod. 
 
-## Getting started
-* Install (if you don't have them):
-    * [Node.js](http://nodejs.org): `brew install node` on OS X
+### Getting started
+```
+mvn clean compile vertx:run
+```
 
-* Run:
-    * `npm start` — watches the project with continuous rebuild.
-    * `npm run build` — builds minified project for production
+### bundle assets
+```
+npm run build
+```
+
 
