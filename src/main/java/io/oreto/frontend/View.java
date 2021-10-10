@@ -35,8 +35,8 @@ public class View extends AbstractVerticle {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello</title>
-    <link href="/assets/app.css" rel="stylesheet">
-    <script src="/assets/app.js" type="module"></script>
+    <link href="/assets/dist/app.css" rel="stylesheet">
+    <script src="/assets/dist/app.js" type="module"></script>
   </head>
   <body>
   <section class="section">
