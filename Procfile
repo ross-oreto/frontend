@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes/:target/dependency/* io.oreto.frontend.View application.env=prod
+web: java $JAVA_OPTS -cp target/classes/:target/dependency/* io.vertx.core.Launcher run io.oreto.frontend.View
