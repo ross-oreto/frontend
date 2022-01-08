@@ -13,7 +13,7 @@ public class View extends AbstractVerticle {
     }
 
     @Override
-    public final void start(Promise<Void> startPromise) throws Exception {
+    public final void start(Promise<Void> startPromise) {
         HttpServer server = vertx.createHttpServer();
         Router router = Router.router(vertx);
         router.route("/assets/*").handler(StaticHandler.create("assets"));

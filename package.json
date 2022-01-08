@@ -3,7 +3,7 @@
   "description": "minify and bundle stuff",
   "private": true,
   "author": "Ross Oreto",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "",
   "scripts": {
     "start": "webpack watch --config webpack.dev.js",
@@ -12,10 +12,10 @@
   },
   "devDependencies": {
     "css-loader": "^6.5.1",
-    "css-minimizer-webpack-plugin": "^3.1.4",
-    "mini-css-extract-plugin": "^2.4.4",
+    "css-minimizer-webpack-plugin": "^3.3.1",
+    "mini-css-extract-plugin": "^2.4.6",
     "style-loader": "^3.3.1",
-    "webpack": "^5.64.1",
+    "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1",
     "webpack-merge": "^5.8.0"
   }
